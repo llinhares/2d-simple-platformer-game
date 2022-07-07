@@ -659,11 +659,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ff4ac8cf768564a8253e4dd77bfb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 5790447825513800732}
+  playerPrefab: {fileID: 8835229685202505509, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
   enemies:
   - {fileID: 8763598642799732872}
   - {fileID: 3599279343249421193}
   startPoint: {fileID: 199369430}
+  duration: 0.2
+  delay: 0.05
+  ease: 28
 --- !u!1 &608379696
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,13 +3999,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PFB_Astronaut
       objectReference: {fileID: 0}
+    - target: {fileID: 8835229685202505509, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
---- !u!1 &5790447825513800732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8835229685202505509, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
-  m_PrefabInstance: {fileID: 5790447825513800731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8763598642799732871
 PrefabInstance:
   m_ObjectHideFlags: 0
