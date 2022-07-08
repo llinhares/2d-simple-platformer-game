@@ -451,8 +451,8 @@ MonoBehaviour:
   - {fileID: 346120960}
   - {fileID: 1271354780}
   m_Bounds:
-    m_Center: {x: 0.08634877, y: 0.083155155, z: 0}
-    m_Extent: {x: 3.8836522, y: 2.3981545, z: 0}
+    m_Center: {x: 0.086349964, y: 0.0831542, z: 0}
+    m_Extent: {x: 3.8836508, y: 2.3981552, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &761088543
@@ -1094,6 +1094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1494637881}
   - component: {fileID: 1494637880}
+  - component: {fileID: 1494637882}
   m_Layer: 0
   m_Name: Satelite
   m_TagString: Untagged
@@ -1135,6 +1136,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494637882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494637879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ac545b9818ca74e8b4f8be68e69d48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1494637880}
+  triggerToPlay: FlyBool
+  keyToPlay: 119
+  keyToExit: 115
 --- !u!1 &1561905559
 GameObject:
   m_ObjectHideFlags: 0
